@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,14 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.0",
-    "popper.js": "^1.12.9"
-  }
+    "popper.js": "^1.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iemprashant/bootstrap-practise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iemprashant/bootstrap-practise/issues"
+  },
+  "homepage": "https://github.com/iemprashant/bootstrap-practise#readme"
 }
