@@ -8,7 +8,7 @@ $(document).ready(function(){
                       $('#carouselbutton').children('span').removeClass('fa-pause');
                       $('#carouselbutton').children('span').addClass('fa-play');
                     };
-                    else( $('#carouselbutton').children('span').hasClass('fa-play'))
+                else if( $('#carouselbutton').children('span').hasClass('fa-play'))
                     {
                       $('#mycarousel').carousel('cycle');
                       $('#carouselbutton').children('span').removeClass('fa-play');
